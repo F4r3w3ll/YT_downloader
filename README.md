@@ -4,6 +4,8 @@ A Python program made with pytubefix that lets you download YouTube videos in MP
 
 ![Program showcase](showcase1.png)
 
+![Program showcase](showcase.png)
+
 ## Notes
 
 When downloading in MP4 format, the program first downloads the video and audio streams separately, as YouTube provides them as separate streams for most high-quality videos. The streams are then merged using imageio_ffmpeg.
@@ -23,7 +25,7 @@ When downloading in MP4 format, the program first downloads the video and audio 
 - imageio_ffmpeg
 - ttkbootstrap
 
-  ```bash
+```bash
 pip install pytubefix imageio_ffmpeg ttkbootstrap
 ```
 
